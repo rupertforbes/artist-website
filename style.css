@@ -111,6 +111,11 @@ span {
   margin-top: 40px;
 }
 
+.pirate {
+  width: 70%;
+  border-radius: 50%;
+}
+
 h1 {
   font-size: 80px;
 }
