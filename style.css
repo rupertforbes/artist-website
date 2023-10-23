@@ -1,3 +1,11 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 11.2%,
+    rgb(11, 132, 145) 91.1%
+  );
+}
+
 .dm-sans {
   font-family: "DM Sans", sans-serif;
 }
@@ -8,4 +16,77 @@
 
 .lobster {
   font-family: "Lobster", sans-serif;
+}
+
+.initials {
+  margin: 1px solid white;
+  padding: 5px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "Lobster", sans-serif;
+}
+
+.initials:hover {
+  background-color: white;
+  color: #212529;
+}
+
+.logo {
+  margin-top: 100px;
+}
+
+.side-menu {
+  color: rgb(222, 222, 222);
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 3;
+  transition: 400ms all ease-in-out;
+  opacity: 0.8;
+}
+
+.side-menu:hover {
+  opacity: 1;
+}
+
+.white {
+  color: white;
+}
+
+span {
+  color: white !important;
+}
+
+.full-width {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.width {
+  width: 80%;
+}
+
+.rounded-corners {
+  border-radius: 15px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.icons {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 40px 0;
+  transition: 400ms all ease-in-out;
+  opacity: 0.8;
+}
+
+.icons:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
