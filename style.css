@@ -84,7 +84,7 @@ span {
   font-size: 30px;
   margin: 20px 0;
   transition: 400ms all ease-in-out;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .icons:hover {
@@ -125,4 +125,18 @@ span {
   .icons-container {
     margin-top: 10px;
   }
+}
+.about-me {
+  font-family: "Gochi Hand", cursive;
+  color: white;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.maisy {
+  width: 70%;
+  border-radius: 50%;
 }
