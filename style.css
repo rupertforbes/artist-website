@@ -132,11 +132,21 @@ span {
   opacity: 0.8;
 }
 
+.maisy {
+  width: 70%;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
 h1 {
   font-size: 80px;
 }
 
-.maisy {
-  width: 70%;
-  border-radius: 50%;
+h2 {
+  font-size: 40px;
+  opacity: 0.6;
+}
+
+p {
+  font-size: 25px;
 }
