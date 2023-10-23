@@ -99,33 +99,6 @@ span {
   margin: 0 auto;
 }
 
-@media (min-width: 701px) {
-  .navbar {
-    display: none;
-  }
-  .body {
-    padding-top: 50px !important;
-  }
-}
-
-@media (max-width: 700px) {
-  .side-menu-container {
-    display: none;
-  }
-
-  .icons-column {
-    display: none;
-  }
-}
-
-@media (max-width: 815px) {
-  .logo {
-    margin-top: 30px;
-  }
-  .icons-container {
-    margin-top: 10px;
-  }
-}
 .about-me {
   font-family: "Gochi Hand", cursive;
   color: white;
@@ -149,4 +122,71 @@ h2 {
 
 p {
   font-size: 25px;
+}
+
+.thin {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.bottom-icon {
+  color: white;
+  opacity: 0.6;
+  font-size: 40px;
+  margin-bottom: 30px;
+  transition: 300ms all ease-in-out;
+}
+
+.bottom-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (min-width: 701px) {
+  .navbar {
+    display: none;
+  }
+  .body {
+    padding-top: 50px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .side-menu-container {
+    display: none;
+  }
+
+  .icons-column {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .big-screen {
+    display: none;
+  }
+
+  .small-screen {
+    display: block !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .small-screen {
+    display: none;
+  }
+  .big-screen {
+    display: block !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 815px) {
+  .logo {
+    margin-top: 30px;
+  }
+  .icons-container {
+    margin-top: 10px;
+  }
 }
