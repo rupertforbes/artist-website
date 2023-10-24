@@ -177,6 +177,12 @@ p {
   .tea-and-toms {
     display: none !important;
   }
+  .row > * {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
 @media (min-width: 769px) {
