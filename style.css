@@ -33,6 +33,10 @@ body {
   color: #212529;
 }
 
+.nav-link {
+  text-align: center !important;
+}
+
 .logo {
   margin-top: 60px;
 }
@@ -44,10 +48,13 @@ body {
   line-height: 3;
   transition: 400ms all ease-in-out;
   opacity: 0.8;
+  background: none !important;
+  border: none !important;
 }
 
 .side-menu:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .white {
@@ -126,7 +133,38 @@ h2 {
   opacity: 0.6;
 }
 
-p {
+.contact-me-h1 {
+  font-size: 70px;
+  color: white;
+  font-family: "Gochi hand";
+}
+
+.contact-me-h2 {
+  color: white;
+  font-size: 30px;
+  opacity: 0.8;
+  font-family: "Gochi hand";
+}
+
+.contact-me-link {
+  color: white;
+  font-size: 30px;
+  font-family: "Gochi hand";
+  opacity: 1;
+  transition: 400ms all ease-in-out;
+}
+
+.contact-me-link:hover {
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.opacity-1 {
+  opacity: 1 !important;
+}
+
+p,
+.font-25 {
   font-size: 25px;
 }
 
@@ -185,13 +223,16 @@ p {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 771px) {
   .small-screen {
     display: none;
   }
   .big-screen {
     display: block !important;
     margin: 0 auto !important;
+  }
+  .contact-me-h1 {
+    margin-top: 50px !important;
   }
 }
 
