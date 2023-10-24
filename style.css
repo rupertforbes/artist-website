@@ -93,13 +93,14 @@ span {
 }
 
 .carousel {
-  margin-top: 15px !important;
+  margin-top: 10px !important;
   width: 90% !important;
   display: block;
   margin: 0 auto;
 }
 
-.about-me {
+.about-me,
+.gallery {
   font-family: "Gochi Hand", cursive;
   color: white;
   opacity: 0.8;
@@ -160,20 +161,21 @@ p {
   .side-menu-container {
     display: none;
   }
-
-  .icons-column {
-    display: none;
-  }
 }
 
 @media (max-width: 770px) {
   .big-screen {
     display: none;
   }
-
+  .icons-column {
+    display: none;
+  }
   .small-screen {
     display: block !important;
     margin: 0 auto !important;
+  }
+  .tea-and-toms {
+    display: none !important;
   }
 }
 
@@ -194,4 +196,47 @@ p {
   .icons-container {
     margin-top: 10px;
   }
+}
+
+.gallery-h1 {
+  margin-top: 150px;
+}
+
+.tea-and-toms {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.gallery-image {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: black;
+  max-width: 300px;
+  transition: 400ms all ease-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.2);
+}
+
+.painting-title,
+.medium {
+  font-family: "Gochi Hand", cursive;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  line-height: 1;
+}
+
+.painting-title {
+  margin-top: 15px;
+}
+
+.medium {
+  opacity: 0.8;
 }
