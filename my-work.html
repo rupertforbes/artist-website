@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A website for impressionist painter Rupert Forbes. Contains information about the artist and a gallery of artworks."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -103,20 +107,27 @@
         <div class="col-3 text-center side-menu-container">
           <img
             src="/images/logo.png"
-            alt=""
+            alt="Website logo"
             width="40%"
             class="logo"
           /><br /><br />
-          <a href="/" class="gochi-hand side-menu white">Home</a><br />
-          <a href="/index.html#about-me" class="gochi-hand side-menu"
+          <a href="/" class="gochi-hand side-menu white" title="Home">Home</a
+          ><br />
+          <a
+            href="/index.html#about-me"
+            class="gochi-hand side-menu"
+            title="About me"
             >About me</a
           ><br />
-          <a href="/my-work.html" class="gochi-hand side-menu">My work</a><br />
+          <a href="/my-work.html" class="gochi-hand side-menu" title="My work"
+            >My work</a
+          ><br />
           <button
             type="button"
             class="btn btn-primary gochi-hand side-menu"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
+            title="Contact me"
           >
             Contact Me
           </button>
@@ -159,6 +170,7 @@
                     type="button"
                     class="btn btn-secondary gochi-hand"
                     data-bs-dismiss="modal"
+                    title="Close pop-up"
                   >
                     Close
                   </button>
@@ -176,7 +188,7 @@
             src="images/tea-and-tomatoes.JPG"
             width="70%"
             class="tea-and-toms"
-            alt=""
+            alt="Tea and Tomatoes painting"
           />
         </div>
         <div class="col-1 icons-column">
@@ -185,24 +197,28 @@
               href="https://github.com/rupertforbes"
               class="icons"
               target="_blank"
+              title="GitHub"
               ><i class="fa-brands fa-github"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/rupert-forbes-2387b025a/"
               class="icons"
               target="_blank"
+              title="LinkedIn"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
             <a
               href="mailto:rupertforbes@gmail.com"
               class="icons"
               target="_blank"
+              title="Email"
               ><i class="fa-regular fa-envelope"></i
             ></a>
             <a
               href="https://open.spotify.com/user/1197505299?si=2A1LczZhQh-NDxDqKEg6Rw"
               class="icons"
               target="_blank"
+              title="Spotify"
               ><i class="fa-brands fa-spotify"></i
             ></a>
           </div>
@@ -214,9 +230,10 @@
             href="/images/mandarin-duck.jpg"
             data-lightbox="mygallery"
             data-title="Mandarin Duck / Oil on Canvas"
+            title="Mandarin Duck"
             ><img
               src="/images/mandarin-duck-square.jpg"
-              alt=""
+              alt="Mandarin Duck painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Mandarin Duck</p>
@@ -227,6 +244,7 @@
             href="/images/peppers.jpg"
             data-lightbox="mygallery"
             data-title="Peppers / Oil on Canvas"
+            title="Peppers"
             ><img src="/images/peppers-square.jpg" alt="" class="gallery-image"
           /></a>
           <p class="painting-title">Peppers</p>
@@ -237,9 +255,10 @@
             href="/images/trabarwith-strand.JPG"
             data-lightbox="mygallery"
             data-title="Trebarwith Strand / Oil on Canvas"
+            title="Trebarwith Strand"
             ><img
               src="/images/trabarwith-strand-square.JPG"
-              alt=""
+              alt="Trebarwith Strand Painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Trebarwith Strand</p>
@@ -252,9 +271,10 @@
             href="/images/wet-walk.jpg"
             data-lightbox="mygallery"
             data-title="Rainy Stroll / Oil on Gesso Board"
+            title="Rainy Stroll"
             ><img
               src="/images/wet-walk-square.jpg"
-              alt=""
+              alt="Rainy Stroll painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Rainy Stroll</p>
@@ -265,9 +285,10 @@
             href="/images/bearded-pirate.JPG"
             data-lightbox="mygallery"
             data-title="Bearded Pirate / Oil on Canvas"
+            title="Bearded Pirate"
             ><img
               src="/images/bearded-pirate-square.JPG"
-              alt=""
+              alt="Bearded Pirate painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Bearded Pirate</p>
@@ -278,9 +299,10 @@
             href="/images/camel-and-cloud.JPG"
             data-lightbox="mygallery"
             data-title="Camel and Cloud / Oil on Canvas"
+            title="Camel and Cloud"
             ><img
               src="/images/camel-and-cloud-square.JPG"
-              alt=""
+              alt="Camel and Cloud painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Camel and Cloud</p>
@@ -293,7 +315,11 @@
             href="/images/chester-street.JPG"
             data-lightbox="mygallery"
             data-title="Chester Street / Oil on Canvas"
-            ><img src="/images/chester-street.JPG" alt="" class="gallery-image"
+            title="Chester Street"
+            ><img
+              src="/images/chester-street.JPG"
+              alt="Chester Street painting"
+              class="gallery-image"
           /></a>
           <p class="painting-title">Chester Street</p>
           <p class="medium">Oil on Canvas</p>
@@ -303,7 +329,11 @@
             href="/images/kapil.JPG"
             data-lightbox="mygallery"
             data-title="Kapil / Oil on Canvas"
-            ><img src="/images/kapil.JPG" alt="" class="gallery-image"
+            title="Kapil"
+            ><img
+              src="/images/kapil.JPG"
+              alt="Kapil painting"
+              class="gallery-image"
           /></a>
           <p class="painting-title">Kapil</p>
           <p class="medium">Oil on Canvas</p>
@@ -313,9 +343,10 @@
             href="/images/lola-cat.JPG"
             data-lightbox="mygallery"
             data-title="Lola / Oil on Canvas"
+            title="Lola"
             ><img
               src="/images/lola-cat-square.JPG"
-              alt=""
+              alt="Lola the cat painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Lola</p>
@@ -328,9 +359,10 @@
             href="/images/purple-landscape.JPG"
             data-lightbox="mygallery"
             data-title="Purple Landscape / Oil on Canvas"
+            title="Purple Landscape"
             ><img
               src="/images/purple-landscape.JPG"
-              alt=""
+              alt="Purple Landscape painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Purple Landscape</p>
@@ -341,7 +373,11 @@
             href="/images/maisy.jpg"
             data-lightbox="mygallery"
             data-title="Maisy / Oil on Canvas"
-            ><img src="/images/maisy-square.jpg" alt="" class="gallery-image"
+            title="Maisy"
+            ><img
+              src="/images/maisy-square.jpg"
+              alt="Maisy the dog painting"
+              class="gallery-image"
           /></a>
           <p class="painting-title">Maisy</p>
           <p class="medium">Oil on Canvas</p>
@@ -351,9 +387,10 @@
             href="/images/purple-mountains.JPG"
             data-lightbox="mygallery"
             data-title="Mountains / Oil on Canvas"
+            title="Mountains"
             ><img
               src="/images/purple-mountains-square.JPG"
-              alt=""
+              alt="Mountains painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Mountains</p>
@@ -366,13 +403,14 @@
           <a
             href="/images/seasonal-transition.JPG"
             data-lightbox="mygallery"
-            data-title="Change of Season / Oil on Canvas"
+            data-title="Change of Seasons / Oil on Canvas"
+            title="Change of Seasons"
             ><img
               src="/images/seasonal-transition-square.JPG"
-              alt=""
+              alt="Change of Seasons painting"
               class="gallery-image"
           /></a>
-          <p class="painting-title">Change of Season</p>
+          <p class="painting-title">Change of Seasons</p>
           <p class="medium">Oil on Canvas</p>
         </div>
         <div class="col-lg-4">
@@ -380,9 +418,10 @@
             href="/images/tea-and-tomatoes.JPG"
             data-lightbox="mygallery"
             data-title="Tea and Tomatoes / Oil on Paper"
+            title="Tea and Tomatoes"
             ><img
               src="/images/tea-and-tomatoes-square.JPG"
-              alt=""
+              alt="Tea and Tomatoes painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Tea and Tomatoes</p>
@@ -393,9 +432,10 @@
             href="/images/sunset-beach.jpg"
             data-lightbox="mygallery"
             data-title="Sunset / Acrylic on Paper"
+            title="Sunset"
             ><img
               src="/images/sunset-beach-square.jpg"
-              alt=""
+              alt="Sunset Painting"
               class="gallery-image"
           /></a>
           <p class="painting-title">Sunset</p>
@@ -408,7 +448,7 @@
           <a
             href="https://github.com/rupertforbes"
             target="_blank"
-            title="Github"
+            title="GitHub"
             class="inline"
             ><i class="fa-brands fa-github bottom-icon"></i
           ></a>
@@ -417,7 +457,7 @@
           <a
             href="https://www.linkedin.com/in/rupert-forbes-2387b025a/"
             target="_blank"
-            title="Linkedin"
+            title="LinkedIn"
             class="inline"
             ><i class="fa-brands fa-linkedin bottom-icon"></i
           ></a>
