@@ -186,6 +186,49 @@ p,
   transform: scale(1.1);
 }
 
+.gallery-h1 {
+  margin-top: 150px;
+}
+
+.tea-and-toms {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.gallery-image {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: black;
+  max-width: 300px;
+  transition: 400ms all ease-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.2);
+}
+
+.painting-title,
+.medium {
+  font-family: "Gochi Hand", cursive;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  line-height: 1;
+}
+
+.painting-title {
+  margin-top: 15px;
+}
+
+.medium {
+  opacity: 0.8;
+}
+
 @media (min-width: 701px) {
   .navbar {
     display: none;
@@ -243,47 +286,4 @@ p,
   .icons-container {
     margin-top: 10px;
   }
-}
-
-.gallery-h1 {
-  margin-top: 150px;
-}
-
-.tea-and-toms {
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-
-.gallery-image {
-  display: block;
-  margin: 0 auto;
-  margin-top: 40px;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: black;
-  max-width: 300px;
-  transition: 400ms all ease-in-out;
-}
-
-.gallery-image:hover {
-  transform: scale(1.2);
-}
-
-.painting-title,
-.medium {
-  font-family: "Gochi Hand", cursive;
-  font-size: 15px;
-  text-align: center;
-  color: white;
-  line-height: 1;
-}
-
-.painting-title {
-  margin-top: 15px;
-}
-
-.medium {
-  opacity: 0.8;
 }
